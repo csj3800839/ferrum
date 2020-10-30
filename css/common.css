@@ -1,0 +1,488 @@
+body {
+    margin:0
+}
+a {
+    color: #fff;
+    text-decoration: none;
+}
+/*顶底背景色 抹茶*/
+.bg-header {
+    background :#a6ac41;
+}
+
+/*中间背景肉色*/
+.bg-body {
+    background :#f4e8df;
+    position: relative;
+    overflow: hidden;
+}
+
+.ff-ar {
+    font-family: Arial;
+}
+
+.ff-black {
+    font-family:Arial Black
+}
+
+.fw-bold {
+    font-weight: bold;
+}
+
+.co-white {
+    color: #fff;
+}
+
+.co-tea {
+    color:#a6ac41
+}
+
+/*view more背景色 深黄绿*/
+.bg-bottom {
+    background :#918246;
+}
+
+.co-brown {
+    color: #423426;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.w-85 {
+    width: 85%;
+    display: block;
+}
+
+.mt-100 {
+    margin-top: 100px;
+}
+
+.mt-30 {
+    margin-top: 30px;
+}
+
+.mt-180 {
+    margin-top: 180px;
+}
+
+.mid {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text-shadow {
+    text-shadow: 3px 3px 1px #000;
+}
+
+
+/*大*/
+@media only screen and ( min-width: 996px ) {
+    header {
+        height: 80px;
+    }
+
+    #nav {
+        font-size: 30px;
+        margin: 40px 0 30px 40px;
+    }
+
+    #title {
+        font-size: 40px;
+        left: 75px;
+        top: 25px;
+    }
+
+    #menu1 {
+        font-size: 30px;
+        top: 35px;
+        width: 605px;
+    }
+
+    #menu2, #menu-list {
+        display: none;
+    }
+
+    .banner-tittle {
+        font-size: 50px;
+    }
+
+    .banner-content {
+        margin-left: 50px;
+    }
+
+    .tittle, .content, .main-foot{
+        font-size: 21px;
+    }
+
+    .content {
+        margin-bottom: 15%;
+        padding-left: 40px;
+    }
+
+    #go-top {
+        bottom: 77px;
+        right: 112px;
+    }
+
+    #footer-title {
+        margin: 120px auto 0;
+        font-weight: bold;
+        font-size: 40px;
+    }
+
+    #footer-sub-title {
+        margin: 30px auto 0;
+        font-size: 23px;
+    }
+
+    #footer-icon-div {
+        margin: 30px auto 0;
+    }
+
+    #footer-icon-div a {
+        height: 55px;
+        width: 55px;
+    }
+
+    footer {
+        height: 500px;
+    }
+}
+
+/*中*/
+@media only screen and ( min-width: 760px ) and (max-width: 996px) {
+    header {
+        height: 80px;
+    }
+
+    #nav {
+        font-size: 25px;
+        margin: 30px 0 25px 30px;
+    }
+
+    #title {
+        font-size: 35px;
+        left: 37px;
+        top: 20px;
+    }
+
+    #menu1 {
+        font-size: 20px;
+        top: 30px;
+        width: 430px;
+    }
+
+    #menu2, #menu-list {
+        display: none;
+    }
+
+    .banner-tittle {
+        font-size: 35px;
+    }
+
+    .banner-content {
+        margin-left: 35px;
+    }
+
+    .tittle, .content, .main-foot{
+        font-size: 20px;
+    }
+
+    .content {
+        margin-bottom: 15%;
+        padding-left: 30px;
+    }
+
+    #go-top {
+        bottom: 77px;
+        right: 72px;
+        width: 90px;
+    }
+
+    #footer-title {
+        margin: 120px auto 0;
+        font-weight: bold;
+        font-size: 40px;
+    }
+
+    #footer-sub-title {
+        margin: 30px auto 0;
+        font-size: 23px;
+    }
+
+    #footer-icon-div {
+        margin: 30px auto 0;
+    }
+
+    #footer-icon-div a {
+        height: 55px;
+        width: 55px;
+    }
+
+    footer {
+        height: 450px;
+    }
+}
+
+/*小*/
+@media only screen and ( max-width: 760px ) {
+    header {
+        height: 60px;
+    }
+
+    #nav {
+        font-size: 15px;
+        margin: 15px 0 15px 30px;
+    }
+
+    #title {
+        font-size: 30px;
+        left: 17px;
+        top: 14px;
+    }
+
+    #menu1 {
+        display: none;
+    }
+
+    #menu2 {
+        display: block;
+    }
+
+    #menu2:checked + #menu-list {
+        display: block;
+    }
+
+    .banner-tittle, .banner-content {
+        font-size: 15px;
+    }
+
+    .banner-content {
+        margin-left: 15px;
+    }
+
+    .tittle, .content, .main-foot{
+        font-size: 16px;
+    }
+
+    .content {
+        margin-bottom: 20%;
+        padding-left: 15px;
+    }
+
+    #go-top {
+        bottom: 43px;
+        right: 22px;
+        width: 57px;
+    }
+
+    #footer-title {
+        margin: 72px auto 0;
+        font-weight: bold;
+        font-size: 25px;
+    }
+
+    #footer-sub-title {
+        margin: 30px auto 0;
+        font-size: 15px;
+    }
+
+    #footer-icon-div {
+        margin: 30px auto 0;
+    }
+
+    #footer-icon-div a {
+        height: 35px;
+        width: 35px;
+    }
+
+    footer {
+        height: 285px;
+    }
+}
+
+#title {
+    font-weight: bold;
+    position: absolute;
+}
+
+#menu1 {
+    right: 0;
+    font-weight: bold;
+    position: absolute;
+}
+
+#menu1>div {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.menu {
+    position: relative;
+}
+
+.menu:hover .sub-menu {
+    display: block;
+}
+
+.sub-menu:hover {
+    display: block;
+}
+
+.sub-menu {
+    display: none;
+    padding: 0 15px 15px;
+    position: absolute;
+    width: 150px;
+    height: 140px;
+    top:30px;
+    left: -20px;
+    font-size: 17px;
+    z-index: 10;
+}
+.sub-menu div {
+    float: left;
+    margin-top: 40px;
+    text-align: center;
+    width: 100%;
+}
+
+/*把checkbox本体隐藏 只显示后面的after来把checkbox的样子换掉 同时通过checked的状态来切换菜单*/
+#menu2 {
+    right: 24px;
+    top: 10px;
+    position: absolute;
+    width: 38px;
+    height: 40px;
+    -webkit-appearance:none;
+}
+
+#menu2:after {
+    content:'';
+    background-image: url('../img/UI/menu.png');
+    width: 44px;
+    height: 40px;
+    position: absolute;
+    left: -2px
+}
+
+#menu2:checked:after {
+    background-image: url('../img/UI/close menu.png');
+}
+
+
+#menu-list {
+    position: absolute;
+    top:60px;
+    width: 100%;
+    height: 156px;
+    background: #423426;
+    z-index: 10;
+    font-size: 28px;
+    display: none;
+}
+
+#menu-list div {
+    width: fit-content;
+    margin: 13px auto;
+}
+
+#main {
+    background: #fff;
+    border-radius: 2em 2em 0 0;
+    width:90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    overflow:hidden;
+}
+
+.main {
+    background: #fff;
+    border-radius: 40px;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    padding: 1% 5% 5% 5%;
+    position: relative;
+    color: #423426;
+}
+
+.main-foot {
+    width: 100%;
+    background :#918246;
+    border-radius: 0 0 40px 40px;
+    height: 5%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    color: #fff;
+    line-height: 300%;
+}
+
+.view-more {
+    text-align: right;
+}
+
+.go-back {
+    text-align: right;
+}
+
+footer {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+#go-top {
+    position: fixed
+}
+
+#footer-title {
+    width: fit-content;
+    color: #fff;
+}
+
+#footer-sub-title {
+    width: fit-content;
+    color: #fff;
+}
+
+#footer-icon-div {
+    width: fit-content;
+    margin: 30px auto 0;
+}
+
+#footer-icon-div a {
+    display: inline-block;
+}
+
+#facebook {
+    background-image: url('../img/UI/facebook logo.png');
+    background-size:100% 100%;
+}
+
+#facebook:hover {
+    background-image: url('../img/UI/facebook logo_c.png');
+    background-size:100% 100%;
+}
+
+#ins {
+    background-image: url('../img/UI/ins logo.png');
+    background-size:100% 100%;
+}
+
+#ins:hover {
+    background-image: url('../img/UI/ins logo_c.png');
+    background-size:100% 100%;
+}
+
+#twitter {
+    background-image: url('../img/UI/twitter logo.png');
+    background-size:100% 100%;
+}
+
+#twitter:hover {
+    background-image: url('../img/UI/twitter logo_c.png');
+    background-size:100% 100%;
+}

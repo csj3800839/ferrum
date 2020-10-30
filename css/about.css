@@ -1,0 +1,45 @@
+/*大*/
+@media only screen and ( min-width: 996px ) {
+    #main {
+        padding: 45px;
+        letter-spacing:2px;
+        line-height: 80px;
+    }
+
+    .tittle, .content {
+        font-size: 50px;
+    }
+}
+
+/*中*/
+@media only screen and ( min-width: 760px ) and (max-width: 996px) {
+    #main {
+        padding: 20px;
+        letter-spacing:2px;
+        line-height: 60px;
+    }
+
+    .tittle, .content{
+        font-size: 35px;
+    }
+}
+
+/*小*/
+@media only screen and ( max-width: 760px ) {
+    #nav {
+        font-size: 15px;
+        margin: 30px 0 25px 30px;
+    }
+
+    #main {
+        padding: 0 10px 10px 20px;
+        letter-spacing:1px;
+        line-height: 40px;
+    }
+}
+
+#main {
+    width: inherit;
+}
+
+

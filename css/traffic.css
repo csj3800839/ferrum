@@ -1,0 +1,57 @@
+/*大*/
+@media only screen and ( min-width: 996px ) {
+    #banner div {
+        font-size: 50px;
+    }
+
+    .main {
+        letter-spacing:2px;
+        line-height: 37px;
+        width: 38.5%;
+        float: left;
+        margin-left: 1%;
+        height: 1190px;
+    }
+}
+
+/*中*/
+@media only screen and ( min-width: 760px ) and (max-width: 996px) {
+    #banner div {
+        font-size: 35px;
+    }
+
+    .main {
+        letter-spacing:2px;
+        line-height: 35px;
+        width: 85%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+/*小*/
+@media only screen and ( max-width: 760px ) {
+    #banner div {
+        font-size: 17px;
+    }
+
+    .main {
+        letter-spacing:1px;
+        line-height: 30px;
+        width: 85%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+#banner {
+    position: relative;
+}
+
+#banner div {
+    position: absolute;
+    bottom: 0;
+    left: 5%;
+    padding-right: 5%;
+}
+

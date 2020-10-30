@@ -1,0 +1,160 @@
+/*大*/
+@media only screen and ( min-width: 996px ) {
+    #Brisbane {
+        font-size: 73px;
+        margin-top: -380px;
+        -webkit-text-stroke: 4px #e1a56a;
+    }
+
+    #main {
+        transform: translateY(-100px);
+    }
+
+    #img-1, #img-2 {
+       margin-top: 100px;
+    }
+
+    #img-1 div, #img-2 div {
+        letter-spacing:2px;
+        line-height: 80px;
+    }
+
+    .img-a {
+        font-size: 40px;
+    }
+
+    .jump-arrow {
+        width: 150px;
+        height: 150px;
+        right: -20px;
+    }
+
+    #main-foot {
+        height: 100px;
+    }
+}
+
+/*中*/
+@media only screen and ( min-width: 760px ) and (max-width: 996px) {
+    #Brisbane {
+        font-size: 53px;
+        margin-top: -275px;
+        -webkit-text-stroke: 2px #e1a56a;
+    }
+
+    #main {
+        transform: translateY(-100px);
+    }
+
+    #img-1, #img-2 {
+        margin-top: 50px;
+    }
+
+    #img-1 div, #img-2 div {
+        letter-spacing:2px;
+        line-height: 60px;
+    }
+
+    .img-a {
+        font-size: 30px;
+    }
+
+    .jump-arrow {
+        width: 100px;
+        height: 100px;
+        right: -10px;
+    }
+
+    #main-foot {
+        height: 100px;
+    }
+}
+
+/*小*/
+@media only screen and ( max-width: 760px ) {
+    #Brisbane {
+        font-size: 30px;
+        margin-top: -120px;
+        -webkit-text-stroke: 1px #e1a56a;
+    }
+
+    #main {
+        transform: translateY(-40px);
+    }
+
+    #img-1, #img-2 {
+        margin-top: 30px;
+    }
+
+    #img-1 div, #img-2 div {
+        letter-spacing:1px;
+        line-height: 30px;
+    }
+
+    .img-a {
+        font-size: 12px;
+    }
+
+    .jump-arrow {
+        width: 50px;
+        height: 50px;
+        right: 10px;
+    }
+
+    #main-foot {
+        height: 40px;
+    }
+}
+
+.bg-body {
+    height: 100%;
+    position: relative;
+}
+
+
+#Brisbane {
+    position: absolute;
+    left:50%;
+    transform: translateX(-50%);
+    width: fit-content;
+
+}
+
+#img-1, #img-2 {
+    overflow: hidden;
+    position: relative;
+}
+
+#img-1 div, #img-2 div {
+    bottom: 20px;
+    left: 26px;
+    width: 90%;
+    text-align: right;
+    position: absolute;
+}
+
+#img-1 {
+}
+
+#img-2 {
+}
+
+.jump-arrow {
+    position: absolute;
+    background-image: url('../img/UI/left arrow.png');
+    background-size:100% 100%;
+    display: inline-block;
+    top:50%;
+    transform: translateY(-50%);
+}
+
+#main-foot {
+    width: 90%;
+    background: #fff;
+    margin-left: 5%;
+    position: absolute;
+    bottom: 0;
+}
+
+footer {
+}
