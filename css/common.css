@@ -412,12 +412,10 @@ a {
     width: 100%;
     background :#918246;
     border-radius: 0 0 40px 40px;
-    height: 5%;
     position: absolute;
     bottom: 0;
     left: 0;
     color: #fff;
-    line-height: 300%;
 }
 
 .view-more {
@@ -425,7 +423,7 @@ a {
 }
 
 .go-back {
-    text-align: right;
+    text-align: left;
 }
 
 footer {
